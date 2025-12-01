@@ -2,8 +2,6 @@
 
 A beautiful and modern employee management system built with **React**, **GraphQL**, **Node.js**, and **Material-UI**.
 
-🔗 **Live Demo**: [Add your deployed URL here]
-
 ## 📸 Features Showcase
 
 ✅ **All Skill Test Requirements Completed**
@@ -196,36 +194,6 @@ mutation {
 }
 ```
 
-## 🌐 Deployment Guide
-
-### Backend Deployment (Example: Render.com)
-1. Create a new Web Service on Render
-2. Connect your GitHub repository
-3. Set build command: `npm install`
-4. Set start command: `npm start`
-5. Add environment variables if needed
-6. Deploy!
-
-### Frontend Deployment (Example: Vercel/Netlify)
-1. Build the project: `npm run build`
-2. Deploy the `dist` folder
-3. Update the Apollo Client URI to point to your deployed backend
-4. Configure environment variables
-
-### Environment Variables
-Create `.env` files for configuration:
-
-**Frontend (.env)**:
-```
-VITE_GRAPHQL_URI=http://localhost:4000/graphql
-```
-
-**Backend (.env)**:
-```
-PORT=4000
-NODE_ENV=production
-```
-
 ## 📱 Screenshots
 
 The application features:
@@ -252,46 +220,6 @@ The application includes 12 sample employees with complete information:
 - Realistic attendance rates
 - Multiple subjects per employee
 
-## 🛠️ Development
-
-### Backend Development
-```bash
-cd "full project/backend"
-npm start  # Auto-reloads on changes
-```
-
-### Frontend Development
-```bash
-cd "full project/frontend"
-npm run dev  # Hot-reload enabled
-```
-
-### Build for Production
-```bash
-# Frontend
-cd "full project/frontend"
-npm run build
-
-# Backend
-cd "full project/backend"
-# Ready for production as-is
-```
-
-## 📚 Additional Features to Consider
-
-- [ ] Add employee photo upload
-- [ ] Implement search and filtering
-- [ ] Add date range filters for attendance
-- [ ] Export data to CSV/PDF
-- [ ] Email notifications
-- [ ] Real-time updates with subscriptions
-- [ ] Dashboard with charts and analytics
-- [ ] Bulk operations (delete, update multiple)
-
-## 🤝 Contributing
-
-This is a skill test project demonstrating full-stack development capabilities.
-
 ## 📄 License
 
 MIT License - Free to use and modify
@@ -300,4 +228,4 @@ MIT License - Free to use and modify
 
 **Built with ❤️ for the Full Stack Developer Skill Test**
 
-For questions or issues, please contact the developer.
+For questions or issues, please contact me at m.burhanmoin1@gmail.com
