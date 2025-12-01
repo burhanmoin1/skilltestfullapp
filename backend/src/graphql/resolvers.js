@@ -11,6 +11,14 @@ let employees = [
     { id: '10', name: 'Henry Davis', age: 34, class: 'Engineering', subjects: ['Math', 'Statistics', 'Data Science'], attendance: 87.0, role: 'EMPLOYEE', email: 'henry@example.com', department: 'Analytics', position: 'Data Analyst' },
     { id: '11', name: 'Iris Thompson', age: 30, class: 'Management', subjects: ['Finance', 'Accounting'], attendance: 95.0, role: 'EMPLOYEE', email: 'iris@example.com', department: 'Finance', position: 'Financial Analyst' },
     { id: '12', name: 'Jack Wilson', age: 36, class: 'Engineering', subjects: ['Computer Science', 'Security'], attendance: 92.5, role: 'EMPLOYEE', email: 'jack@example.com', department: 'IT', position: 'Security Engineer' },
+    { id: '13', name: 'Kelly Anderson', age: 25, class: 'Design', subjects: ['Art', 'Animation', 'Video'], attendance: 94.5, role: 'EMPLOYEE', email: 'kelly@example.com', department: 'Creative', position: 'Motion Designer' },
+    { id: '14', name: 'Liam Taylor', age: 38, class: 'Management', subjects: ['Business', 'Strategy', 'Leadership'], attendance: 90.0, role: 'EMPLOYEE', email: 'liam@example.com', department: 'Operations', position: 'Operations Manager' },
+    { id: '15', name: 'Mia Garcia', age: 29, class: 'Engineering', subjects: ['Computer Science', 'AI', 'ML'], attendance: 96.5, role: 'EMPLOYEE', email: 'mia@example.com', department: 'R&D', position: 'ML Engineer' },
+    { id: '16', name: 'Noah Martinez', age: 31, class: 'Sales', subjects: ['Marketing', 'Business', 'Communication'], attendance: 88.0, role: 'EMPLOYEE', email: 'noah@example.com', department: 'Sales', position: 'Account Manager' },
+    { id: '17', name: 'Olivia Robinson', age: 27, class: 'Design', subjects: ['UX', 'Research', 'Design'], attendance: 93.0, role: 'EMPLOYEE', email: 'olivia@example.com', department: 'Product', position: 'UX Researcher' },
+    { id: '18', name: 'Paul Clark', age: 33, class: 'Engineering', subjects: ['Computer Science', 'DevOps', 'Cloud'], attendance: 91.0, role: 'EMPLOYEE', email: 'paul@example.com', department: 'IT', position: 'DevOps Engineer' },
+    { id: '19', name: 'Quinn Rodriguez', age: 28, class: 'Management', subjects: ['Business', 'Product', 'Strategy'], attendance: 95.5, role: 'EMPLOYEE', email: 'quinn@example.com', department: 'Product', position: 'Product Manager' },
+    { id: '20', name: 'Rachel Lee', age: 26, class: 'Design', subjects: ['Design', 'Typography', 'Branding'], attendance: 92.0, role: 'EMPLOYEE', email: 'rachel@example.com', department: 'Design', position: 'Graphic Designer' },
 ];
 
 export const resolvers = {
